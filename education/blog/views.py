@@ -1,8 +1,7 @@
 from django.shortcuts import render
 from django.utils import timezone
-from .models import Post, Question, AA
+from .models import Post
 from .forms import OrderForm
-from django.views.generic import CreateView, UpdateView
 
 # Create your views here.
 
